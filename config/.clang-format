@@ -1,0 +1,15 @@
+# clang-format config enforcing the brace/formatting guidance in
+# references/c-programming.md and references/clean-code.md
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+ColumnLimit: 100
+PointerAlignment: Right
+SortIncludes: true
+IndentCaseLabels: true
+SpaceBeforeParens: ControlStatements

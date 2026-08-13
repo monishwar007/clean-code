@@ -1,0 +1,53 @@
+{
+  "name": "clean-code",
+  "version": "1.2.1",
+  "description": "Senior-engineer AI agent skill for Java/Spring Boot, Python, C, JavaScript/TypeScript, and OOP — SOLID, TDD, clean architecture, SQL, API design, concurrency. Installs into Claude Code, Cursor, Codex CLI, Antigravity, OpenCode, OpenClaw, and Hermes Agent.",
+  "main": "install.js",
+  "bin": {
+    "clean-code": "./install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monishwar007/clean-code.git"
+  },
+  "homepage": "https://github.com/monishwar007/clean-code#readme",
+  "bugs": {
+    "url": "https://github.com/monishwar007/clean-code/issues"
+  },
+  "type": "commonjs",
+  "files": [
+    "install.js",
+    "skills/",
+    "config/",
+    ".claude/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "CODEOWNERS"
+  ],
+  "scripts": {
+    "install-skill": "node install.js",
+    "preview": "node install.js --list",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "keywords": [
+    "ai-agent-skill",
+    "solid",
+    "tdd",
+    "clean-code",
+    "java",
+    "spring-boot",
+    "python",
+    "c",
+    "javascript",
+    "typescript",
+    "oop"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

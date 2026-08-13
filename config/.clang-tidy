@@ -1,0 +1,22 @@
+# clang-tidy config enforcing the defensive-programming guidance in
+# references/c-programming.md
+Checks: >
+  clang-analyzer-*,
+  bugprone-*,
+  cert-*,
+  cppcoreguidelines-*,
+  -cppcoreguidelines-avoid-magic-numbers,
+  readability-function-size,
+  readability-identifier-naming,
+  misc-*,
+  -misc-non-private-member-variables-in-classes
+
+WarningsAsErrors: 'bugprone-*,cert-*'
+
+CheckOptions:
+  - key: readability-function-size.LineThreshold
+    value: '30'
+  - key: readability-function-size.ParameterThreshold
+    value: '4'
+  - key: cppcoreguidelines-avoid-non-const-global-variables.AllowInternalLinkage
+    value: 'false'

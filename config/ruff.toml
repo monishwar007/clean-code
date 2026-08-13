@@ -1,0 +1,31 @@
+# Ruff configuration enforcing the guidance in references/python.md
+# Usage: ruff check --config config/ruff.toml .
+
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = [
+  "E",    # pycodestyle errors
+  "F",    # pyflakes
+  "I",    # isort (import order)
+  "B",    # bugbear (common bugs, e.g. mutable default args)
+  "C90",  # mccabe complexity
+  "ANN",  # type annotations required on public functions
+  "S",    # bandit-style security checks (e.g. no bare except in security-sensitive spots)
+  "SIM",  # simplify-able code (nesting, guard clauses)
+]
+ignore = [
+  "ANN101", # missing type annotation for self — not needed
+  "ANN102", # missing type annotation for cls — not needed
+]
+
+[lint.mccabe]
+max-complexity = 10
+
+[lint.flake8-annotations]
+allow-star-arg-any = true
+suppress-none-returning = true
+
+[lint.per-file-ignores]
+"test/**" = ["ANN", "S101"]  # tests may skip full annotations; assert is fine
