@@ -272,7 +272,6 @@ comparison-example/           # see "Comparison Example" section below
 └── verify-compile.sh
 install.js                    # multi-agent, language-filtered installer
 package.json
-CHANGELOG.md
 ```
 
 ## Testing this repo
@@ -462,11 +461,6 @@ cd with-skill && mvn test    # full test suite with real Mockito/JUnit (needs Ma
 ```
 
 ---
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for the full version history.
-
 ## License
 
 MIT
