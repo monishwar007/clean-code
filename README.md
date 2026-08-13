@@ -191,6 +191,7 @@ combination, reinstall protection, and marker-filtering correctness (see
 
 ---
 
+
 ## How the skill works
 
 `SKILL.md` is the router an agent reads first. It:
