@@ -34,7 +34,6 @@ the bottom of this README.
 - [Repository structure](#repository-structure)
 - [Testing this repo](#testing-this-repo)
 - [Comparison Example: With Skill vs. Without Skill](#comparison-example-with-skill-vs-without-skill)
-- [Changelog](#changelog)
 - [License](#license)
 
 ---
