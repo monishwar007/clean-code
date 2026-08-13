@@ -1,3 +1,5 @@
+![Clean Code logo](assets/clean-code-logo.png)
+
 # Clean Code — Java/Spring Boot · Python · C · JS/TS · OOP
 
 [![npm](https://img.shields.io/npm/v/clean-code)](https://www.npmjs.com/package/clean-code)
