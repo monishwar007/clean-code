@@ -1,4 +1,4 @@
-# Senior Engineer Skill — Java/Spring Boot · Python · C · JS/TS · OOP
+# Clean Code — Java/Spring Boot · Python · C · JS/TS · OOP
 
 [![npm](https://img.shields.io/npm/v/clean-code)](https://www.npmjs.com/package/clean-code)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -14,9 +14,6 @@ Installs into **Claude Code, Cursor, Codex CLI, Antigravity, OpenCode,
 OpenClaw, and Hermes Agent** with one command, and can be scoped to a
 single language so you're not carrying Python/C/JS reference docs around
 in a pure-Java project.
-
-Patterned after [ramziddin/solid-skills](https://github.com/ramziddin/solid-skills),
-retargeted and extended for a broader, more enterprise-oriented stack.
 
 A full **before/after comparison example** (a real Spring Boot feature,
 built twice — with and without this skill) is included and detailed at
