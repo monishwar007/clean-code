@@ -73,20 +73,23 @@ the agent can forget three files later.
 
 ## Installation
 
-Clone the repo, or install straight from npm — every command below works
-identically with **npm**, **pnpm**, or plain **node**.
+Clone the repo and run it with **npm**, **pnpm**, or plain **node**.
 
 ```bash
-# Option A: clone and run locally
 git clone https://github.com/monishwar007/clean-code.git
 cd clean-code
 npm install            # or: pnpm install
 node install.js --list # preview first, writes nothing
+```
 
-# Option B: run without cloning, via npm
+> **Note:** this package is not yet published to the npm registry, so
+> `npx clean-code` / `pnpm dlx clean-code` will not work until it is.
+> Clone-and-run (above) is the only supported install method for now.
+> Once published, the commands below will also work.
+
+```bash
+# Once published to npm:
 npx clean-code --list
-
-# Option B: run without cloning, via pnpm
 pnpm dlx clean-code --list
 ```
 
@@ -123,8 +126,6 @@ Install into specific agents only:
 
 ```bash
 node install.js --agent claude,cursor
-# equivalently: npx clean-code --agent claude,cursor
-# equivalently: pnpm dlx clean-code --agent claude,cursor
 ```
 
 > **Agent Compatibility Note:** Hermes Agent and some emerging tools don't
@@ -144,8 +145,6 @@ list, and its non-negotiable-rules section are all trimmed to match):
 
 ```bash
 node install.js --lang java
-# or: npx clean-code --lang java
-# or: pnpm dlx clean-code --lang java
 ```
 
 ```
@@ -171,8 +170,8 @@ node install.js --lang python,javascript --agent cursor,codex
 
 ```
 node install.js [--agent <list>] [--lang <list>] [--target DIR] [--global] [--force] [--list]
-npx clean-code [same flags]
-pnpm dlx clean-code [same flags]
+npx clean-code [same flags]      # once published to npm
+pnpm dlx clean-code [same flags] # once published to npm
 
 --agent   claude, cursor, codex, openclaw, antigravity, opencode, hermes, all (default: all)
 --lang    java, python, c, javascript, all                                   (default: all)
