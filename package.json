@@ -1,6 +1,6 @@
 {
   "name": "@monishwar007/clean-code",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Senior-engineer AI agent skill for Java/Spring Boot, Python, C, JavaScript/TypeScript, and OOP — SOLID, TDD, clean architecture, SQL, API design, concurrency. Installs into Claude Code, Cursor, Codex CLI, Antigravity, OpenCode, OpenClaw, and Hermes Agent.",
   "main": "install.js",
   "bin": {
