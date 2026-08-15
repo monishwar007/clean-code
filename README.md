@@ -3,8 +3,11 @@
 # Clean Code — Java/Spring Boot · Python · C · JS/TS · OOP
 
 [![npm](https://img.shields.io/npm/v/%40monishwar007%2Fclean-code)](https://www.npmjs.com/package/@monishwar007/clean-code)
+[![Socket Badge](https://badge.socket.dev/npm/package/@monishwar007/clean-code/1.2.3)](https://badge.socket.dev/npm/package/@monishwar007/clean-code/1.2.3)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](package.json)
+[![GitHub stars](https://img.shields.io/github/stars/monishwar007/clean-code?style=social)](https://github.com/monishwar007/clean-code/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/monishwar007/clean-code/pulls)
 
 An [Agent Skill](https://agentskills.io) that makes AI coding agents write
 senior-engineer quality code — SOLID, TDD, clean architecture, and
