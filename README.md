@@ -2,7 +2,7 @@
 
 # Clean Code — Java/Spring Boot · Python · C · JS/TS · OOP
 
-[![npm](https://img.shields.io/npm/v/clean-code)](https://www.npmjs.com/package/clean-code)
+[![npm](https://img.shields.io/npm/v/%40monishwar007%2Fclean-code)](https://www.npmjs.com/package/@monishwar007/clean-code)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](package.json)
 
@@ -73,7 +73,8 @@ the agent can forget three files later.
 
 ## Installation
 
-Clone the repo and run it with **npm**, **pnpm**, or plain **node**.
+Clone the repo and run it with **npm**, **pnpm**, or plain **node** —
+or install straight from npm.
 
 ```bash
 git clone https://github.com/monishwar007/clean-code.git
@@ -82,15 +83,14 @@ npm install            # or: pnpm install
 node install.js --list # preview first, writes nothing
 ```
 
-> **Note:** this package is not yet published to the npm registry, so
-> `npx clean-code` / `pnpm dlx clean-code` will not work until it is.
-> Clone-and-run (above) is the only supported install method for now.
-> Once published, the commands below will also work.
+> **Note:** the package is published on npm as
+> [`@monishwar007/clean-code`](https://www.npmjs.com/package/@monishwar007/clean-code)
+> (scoped under the author's npm username). The CLI command itself stays
+> `clean-code` either way.
 
 ```bash
-# Once published to npm:
-npx clean-code --list
-pnpm dlx clean-code --list
+npx @monishwar007/clean-code --list
+pnpm dlx @monishwar007/clean-code --list
 ```
 
 Once cloned, the same install can be triggered through package scripts
@@ -170,8 +170,8 @@ node install.js --lang python,javascript --agent cursor,codex
 
 ```
 node install.js [--agent <list>] [--lang <list>] [--target DIR] [--global] [--force] [--list]
-npx clean-code [same flags]      # once published to npm
-pnpm dlx clean-code [same flags] # once published to npm
+npx @monishwar007/clean-code [same flags]
+pnpm dlx @monishwar007/clean-code [same flags]
 
 --agent   claude, cursor, codex, openclaw, antigravity, opencode, hermes, all (default: all)
 --lang    java, python, c, javascript, all                                   (default: all)
